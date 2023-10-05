@@ -1,0 +1,73 @@
+.navbar-header{
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -2.64px;
+    position: relative;
+    left: 37px;
+    z-index: 1;
+}
+.navbar-brand svg{
+    position: relative;
+    bottom: 2px;
+}
+.navbar-brand span:nth-child(3){
+    color: #21211F;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    padding-left: 0.5rem;
+}
+.navbar-nav{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-item{
+    padding-left: 1.5rem;  
+    white-space: nowrap;
+}
+form{
+    justify-content: end !important;
+}
+form button:nth-child(1){
+    border: none;
+    width: 135px;
+    height: 50px;
+    border-radius: 10px;
+}
+form button:nth-child(2){
+    color: #fff;
+    background: #818EDD;
+    width: 135px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+    background: #818EDD;
+}
+.btn{
+    color: #21211F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
