@@ -5,11 +5,10 @@
     font-size: 24px;
     font-style: italic;
     font-weight: 800;
-    line-height: normal;
     letter-spacing: -2.64px;
     position: relative;
     left: 37px;
-    z-index: 1;
+    align-self: flex-start;
 }
 .navbar-brand svg{
     position: relative;
@@ -28,7 +27,6 @@
     color: #000;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal; 
     position: absolute;
@@ -43,13 +41,12 @@
 form{
     justify-content: end !important;
 }
-form button:nth-child(1){
+.btn{
     border: none;
-    width: 135px;
     height: 50px;
     border-radius: 10px;
 }
-form button:nth-child(2){
+.btn.two{
     color: #fff;
     background: #818EDD;
     width: 135px;
@@ -57,17 +54,91 @@ form button:nth-child(2){
     border: none;
     border-radius: 10px;
     opacity: 0.9;
+    white-space: nowrap;
 }
 .btn:hover{
     opacity: 1;
-    background: #818EDD;
+    background: #818EDD !important;
+}
+.btn:active{
+    opacity: 1;
+    background-color: #818EDD !important;
 }
 .btn{
     color: #21211F;
     text-align: center;
     font-family: Inter;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.col-title{
+    color: #21211F;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 76px; 
+    letter-spacing: -2.04px;
+}
+.col-text{
+    color: #595959;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.different-title{
+    font-family: Poppins;
+    font-size: 22px !important;
+}
+.different-text{
+    font-family: Poppins;
+    font-size: 15px !important;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    background: #EDE1CF;
+    height: 150px;
+}
+.card-title{
+    color: #21211F;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.78px;
+}
+.card-text{
+    color: #595959;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+@media (max-width: 1400px) {
+    .col-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .different-title{
+        font-size: 20px !important;
+    }
+    .different-text{
+        font-size: 14px !important;
+    }
+    .mb-5{
+        margin-bottom: 1rem !important;
+    }
+    .card-title{
+        font-size: 24px;
+    }
+    .card-text{
+        font-size: 13.5px;
+    }
+    .p-3{
+        padding: 0.5rem !important;
+    }
+}
+@media (max-width: 1200px) {
 }
